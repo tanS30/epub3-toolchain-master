@@ -1,0 +1,18 @@
+---
+cover-image: data/cover.jpg
+stylesheet: data/style.css
+toc-title: Table of Contents
+identifier:
+- scheme: ISBN-13
+  text: 9781785889196
+lang: en-US
+title: Python Application Development
+creator:
+- role: author
+  text: Ninad Sathaye
+  file-as: Sathaye, Ninad
+date: 2016-09-01
+publisher: Packt
+subject: Python, Python GUI
+rights: Copyright ©2016 Packt Publishing
+---

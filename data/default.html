@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops"$if(lang)$ xml:lang="$lang$"$endif$>
+<head>
+<meta charset="utf-8"/>
+<meta name="generator" content="packt"/>
+<title>$pagetitle$</title>
+$if(highlighting-css)$
+<style type="text/css">$highlighting-css$</style>
+$endif$
+$for(css)$
+<link rel="stylesheet" type="text/css" href="$css$"/>
+$endfor$
+$for(header-includes)$ $header-includes$ $endfor$
+</head>
+<body$if(coverpage)$ id="cover"$endif$>
+$if(titlepage)$
+<section epub:type="titlepage">
+$if(title)$
+<h1 class="title">$title$</h1>
+$endif$
+$if(rights)$
+<p class="rights">$rights$</p>
+<p>All rights reserved. No part of this book may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, without the prior written permission of the publisher, except in the case of brief quotations embedded in critical articles or reviews.</p>
+<p>Every effort has been made in the preparation of this book to ensure the accuracy of the information presented. However, the information contained in this book is sold without warranty, either express or implied. Neither the author, nor Packt Publishing, and its dealers and distributors will be held liable for any damages caused or alleged to be caused directly or indirectly by this book.</p>
+<p>Packt Publishing has endeavored to provide trademark information about all of the companies and products mentioned in this book by the appropriate use of capitals. However, Packt Publishing cannot guarantee the accuracy of this information.</p>
+$endif$
+</section>
+$else$
+$for(include-before)$
+$include-before$
+$endfor$
+$body$
+$for(include-after)$
+$include-after$
+$endfor$
+$endif$
+</body>
+</html>
